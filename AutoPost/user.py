@@ -19,7 +19,7 @@ class UserBot(Client):
             api_id=API_ID,
             plugins={"root": "AutoPost/plugins"},
             workers=20,
-            bot_token=SESSION,
+            session_string=SESSION,
             sleep_threshold=10
         )
         self.LOGGER = LOGGER
